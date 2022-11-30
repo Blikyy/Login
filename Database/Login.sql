@@ -14,13 +14,13 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema mydb
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
+CREATE SCHEMA IF NOT EXISTS `login` DEFAULT CHARACTER SET utf8 ;
 USE `mydb` ;
 
 -- -----------------------------------------------------
 -- Table `mydb`.`Login`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Login` (
+CREATE TABLE IF NOT EXISTS `login`.`Login` (
   `Userscol` INT NOT NULL AUTO_INCREMENT,
   `Username` VARCHAR(255) NOT NULL,
   `E-mail` VARCHAR(255) NOT NULL,
